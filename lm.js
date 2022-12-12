@@ -1,96 +1,10 @@
-const projetos = document.querySelectorAll('.projetos');
-const btnPrev = document.getElementById('prev');
-const btnNext = document.getElementById('next');
-
-let currentSlide = 0;
-
-function hideSlide(){
-  projetos.forEach(item => item.classList.remove('on'))
-}
-function showSlider(){
-  projetos[currentSlide].classList.add('on')
-}
-function nextSlide(){
-  hideSlide()
-  if(currentSlide === projetos.length -1){
-    currentSlide = 0
-  }else{
-    currentSlide++
-  }
-  showSlider()
-}
-
-function prevSlide(){
-  hideSlide()
-  if(currentSlide === 0){
-    currentSlide = projetos.length -1
-  }else{
-    currentSlide--
-  }
-  showSlider()
-}
-
-btnNext.addEventListener('click',nextSlide)
-btnPrev.addEventListener('click',prevSlide)
-
-
-//glitch effect
-let bg = document.getElementById('glitch')
-let grey = document.querySelector('.grey')
-let cont = 18;
-for(let i = 0; i < cont; i++){
-  let glicthBox = document.createElement('div')
-  glicthBox.classList.add('box');
-  bg.appendChild(glicthBox)
-}
-setInterval(function(){
- grey.classList.add('trasparent')
- grey.style.left = '-14px'
- setTimeout(()=>{
-  grey.classList.remove('trasparent')
-  setTimeout(()=>{
-    grey.style.left = '50px'
-    setTimeout(()=>{
-      grey.style.left = '5px'
-    },50)
-  },70)
- },80)
-},800)
-//glitch effect part 2
-setInterval(() => {
-  grey.classList.add('trasparent')
-  grey.style.left = '50px'
-  grey.style.top = '20px'
-
-  setTimeout(()=>{
-    grey.classList.remove('trasparent')
-
-    setTimeout(()=>{
-      grey.style.left = '40px'
-      setTimeout(()=>{
-        grey.style.top = '-30px'
-        grey.style.left = '50px'
-      },50)
-    },60)
-  },200)
-},600)
-
-let glitch1 = document.getElementsByClassName('box')
-
-setInterval(()=>{
-  stop()
-  for(let i = 0; i < glitch1.length; i++){
-    glitch1[i].style.left = Math.floor(Math.random()*20) + 'vw'
-    glitch1[i].style.top = Math.floor(Math.random()*50) + 'vh'
-    glitch1[i].style.width = Math.floor(Math.random()*50) + 'px'
-    glitch1[i].style.height = Math.floor(Math.random() * 30) + 'px'
-    glitch1[i].style.backgroundPosition = Math.floor(Math.random() * 10) + 'px'
-  }
-},200)
 
 
 
 
+
+
+//habilidades 
 function navTab(){
 const habilidades = document.querySelectorAll('.habilidades li')
 const conteudo = document.querySelectorAll('.conteudo')
@@ -159,8 +73,6 @@ linksInternos.forEach((link)=>{
 scrollSuave()
 
 
-
-
 const sections =document.querySelectorAll('.js-scroll')
 const windowMetade = window.innerHeight * 0.7
 
@@ -188,6 +100,7 @@ animaScrollDetail()
 window.addEventListener('scroll',animaScrollDetail)
 
 
+//menumobile
 const btnOpen = document.querySelector('.btn-open')
 const btnClose = document.querySelector('.btn-close')
 const menu = document.querySelector('.js-menu-mobile ')
