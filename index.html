@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/parte2.css" />
+    <link rel="stylesheet" href="/responsivo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/img/logolm.svg">
+    <title>LM-Portifolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav js-menu">
+        <img src="/img/logolm.svg" alt="logotipo" />
+        <ul class="menu">
+          <li><a href="#inicio">início</a></li>
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">contato</a></li>
+        </ul>
+        <button  class="btn-open"><img  src="/img/btn-menu.svg" /></button>
+        <div class="js-menu-mobile ">
+          <button class="btn-close"><img src="/img/btn-close.svg" /></button>
+          <ul class="menu-mobile1">
+            <li><a href="#inicio">início</a></li>
+            <li><a href="#sobre">sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">contato</a></li>
+          </ul>
+      </div>
+      </nav>
+      <div class="color">
+        <div class="main">
+          <div id="glitch" class="glitch">
+            <img class="grey trasparent" src="/img/eu2.png" alt="" />
+            <img class="grey2" src="/img/eu2.png" alt="" />
+          </div>
+          <div class="nome">
+            <h2>Luciano Martinello</h2>
+            <h1>
+              Desenvolvedor<br />
+              Front End &<br />
+              UX/UI Designer<br />
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="black">
+      <section class="sobre " id="sobre">
+        <div class="detail">
+          <img src="/img/detalhe.svg" alt="" class="rotate2 js-rotate" />
+          <img src="/img/detalhe2.svg" alt="" />
+        </div>
+        <h1 class="titulo js-scroll">sobre mim</h1>
+        <p>
+          Eae tudo certo? Meu nome é Luciano,
+          Tenho 25 anos, moro em Pato Branco-PR e atualmente estou em transição
+          de carreira em busca da minha primeira oportunidade como
+          desenvolvedor, antigamente atuava na área da mecânica, passei a ser
+          design gráfico, e ai tive meu primeiro contato com as criptomoedas o
+          qual me fascinei com as possibilidades, passei a viver de jogos na
+          blockchain, e esse mundo despertou meu interesse por programação.
+        </p>
+      </section>
+      <section class="grid1" id="projetos">
+        <div class="title">
+          <div class="detail">
+            <img src="/img/detalhe.svg" alt="" class="rotate2 js-rotate" />
+            <img src="/img/detalhe2.svg" alt="" />
+          </div>
+          <h1 class="titulo js-scroll">projetos</h1>
+        </div>
+        <div class="container-slider">
+          <button id="prev"><img src="/img/caroceu.svg" alt="" /></button>
+          <div class="container-images">
+            <div class="projetos on">
+              <img src="/img/projeto1.svg" alt="" />
+              <div class="acesse">
+                <h3>Nome do projeto</h3>
+                <a class="colorh" href="">acesse</a>
+              </div>
+            </div>
+            <div class="projetos">
+              <img src="/img/projeto2.svg" alt="" />
+              <div class="acesse">
+                <h3>Nome do projeto</h3>
+                <a class="colorh" href="">acesse</a>
+              </div>
+            </div>
+            <div class="projetos">
+              <img src="/img/projeto3.svg" alt="" />
+              <div class="acesse">
+                <h3>Nome do projeto</h3>
+                <a class="colorh" href="">acesse</a>
+              </div>
+            </div>
+            <div class="projetos">
+              <img src="/img/projeto4.svg" alt="" />
+              <div class="acesse">
+                <h3>Nome do projeto</h3>
+                <a class="colorh" href="">acesse</a>
+              </div>
+            </div>
+          </div>
+          <button id="next"><img src="/img/caroceu.svg" alt="" /></button>
+        </div>
+      </section>
+      <section class="grid" id="habilidades">
+        <div class="detail">
+          <img src="/img/detalhe.svg" alt="" class="rotate2 js-rotate" />
+          <img src="/img/detalhe2.svg" alt="" />
+        </div>
+        <h1 class="titulo js-scroll">habilidades</h1>
+        <ul class="habilidades">
+          <li>
+            <img onmouseover="this.src='/img/html2.svg'"
+            onmouseout="this.src='/img/html.svg'"
+              class="icons"
+              src="/img/html.svg"
+              alt="icone-html"
+              id="icoh"
+            />
+          </li>
+          <li><img  onmouseover="this.src='/img/css2.svg'"
+            onmouseout="this.src='/img/css.svg'" class="icons" src="/img/css.svg" alt="" /></li>
+          <li><img onmouseover="this.src='/img/js2.svg'"
+            onmouseout="this.src='/img/js.svg'" class="icons" src="/img/js.svg" alt="" /></li>
+          <li><img onmouseover="this.src='/img/cdr2.svg'"
+            onmouseout="this.src='/img/cdr.svg'" class="icons" src="/img/cdr.svg" alt="" /></li>
+        </ul>
+        <div class="conteiner-descricao">
+          <div class="texto-descricao">
+            <p>Passe o mouse sobre uma habilidade para ler a descrição</p>
+          </div>
+          <div class="conteudo">
+            <div class="skill-bar" > <span class="skill-per" > <p class="tooltip">81%</p> </span> </div> <p>HTML</p>  <p>  É uma linguagem de marcação utilizada na construção de páginas na Web.
+          </div>
+          <div class="conteudo">
+            <div class="skill-bar" > <span class="skill-per" > <p class="tooltip">82%</p> </span> </div> <p>CSS</p>  <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>
+          </div>
+          <div class="conteudo">
+            <div class="skill-bar" > <span class="skill-per-javasc" > <p class="tooltip-javasc">30%</p> </span> </div><p>JavaScript</p>  <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p>
+          </div>
+          <div class="conteudo">
+            <div class="skill-bar" > <span class="skill-per-cd" > <p class="tooltip-cd">88%</p> </span> </div> <p>CorelDRAW</p>  <p>  É uma ferramenta de desenho e tratamento de imagens e animações.</p> 
+          </div>
+        </div>
+      </section>
+      <section class="grid" id="contato">
+        <div class="detail">
+          <img src="/img/detalhe.svg" alt="" class="rotate2 js-rotate" />
+          <img src="/img/detalhe2.svg" alt="" />
+        </div>
+        <h1 class="titulo js-scroll">contato</h1>
+        <div class="contato">
+          <h3>entre em contato via email</h3>
+          <div class="mao">
+            <img class="rot" src="/img/mao.png" alt="" />
+            <img class="rot2" src="/img/mao.png" alt="" />
+          </div>
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="">Nome</label>
+            <input
+              id="nome"
+              type="text"
+              name="name"
+              placeholder="Digite seu nome"
+              autocomplete="off"
+              required
+            />
+            <label for="">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+            <label for="">Mensagem</label>
+            <textarea
+              id="msg"
+              name="message"
+              cols="30"
+              rows="30"
+              placeholder="digite sua mensagem"
+              required
+            ></textarea>
+            <button type="submit" id="btn">Enviar</button>
+            <input
+              type="hidden"
+              name="accessKey"
+              value="c3cf23c7-e1b3-4404-82bb-d726b2afe4d3"
+            />
+            <div class="enviado"></div>
+          </form>
+        </div>
+      </section>
+      <footer class="outros">
+        
+        <div class="redes">
+          <a href=""><img class="giras" src="/img/instagram.png" alt="" /></a>
+          <a href=""><img class="giras" src="/img/logotipo-do-linkedin.png" alt="" /></a>
+          <a href=""><img class="giras" src="/img/placa-do-github.png" alt="" /></a>
+        </div>
+        <div class="discord">
+          <img src="/img/discordia.png" alt="" />
+          <h3>TexLuciano#9010</h3>
+        </div>
+        <h3>lucianomartinello15@gmail.com</h3>
+      </div>
+    </footer>
+    <script src="/lm.js" defer></script>
+  </body>
+</html>

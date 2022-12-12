@@ -1,0 +1,165 @@
+.sobre p {
+  grid-column: 2;
+  font-size: 1.2rem;
+  color: #98eeee;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  max-width: 1200px;
+  margin: 0px auto;
+  line-height: 1.3;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  max-width: 60ch;
+  padding: 100px 0px;
+}
+
+.title {
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-row: 1;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 20px;
+  max-width: 60ch;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.detail {
+  position: relative;
+  
+}
+
+
+@keyframes girar {
+  0% {
+    transform: rotate(45deg);
+  }30% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(100deg);
+  }80%{
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.titulo {
+  font-size: 3.5rem;
+  color: #98eeee;
+  justify-self: start;
+  display: block;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+.rotate2 {
+  width: 40px;
+  position: absolute;
+  z-index: +1;
+  left: 10px;
+  bottom: 10px;
+}
+
+.rotate{
+  animation: girar 1.5s linear forwards;
+}
+
+.container-slider {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  min-height: 40vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 600px;
+}
+.container-images img {
+  width: 300px;
+}
+
+.projetos {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  justify-items: center;
+  transition: opacity 0.5s ;
+ 
+}
+
+.on {
+  opacity: 1;
+  
+}
+
+
+
+#prev,
+#next {
+  width: 80px;
+  height: 80px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+#prev img,
+#next img {
+  width: 100%;
+  height: 100%;
+}
+#next {
+  transform: rotate(180deg);
+}
+
+.projetos a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  font-size: 1.5rem;
+  background: #98eeee;
+  border-radius: 6px;
+  color: black;
+  z-index: 3;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+.projetos h3 {
+  display: block;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #98eeee;
+}
+.acesse {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.colorh:hover{
+  background: #f8c200;
+}

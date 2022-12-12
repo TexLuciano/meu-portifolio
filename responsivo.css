@@ -1,0 +1,204 @@
+.btn-open{
+  display: none;
+  border: 0;
+  background: black;
+}
+.btn-close{
+  background: black;
+  border: 0;
+  align-self: end;
+}
+.js-menu-mobile{
+  display: none;
+  position: absolute;
+  background: black;
+  width: 200px;
+  height: 40vh;
+  right: -10px;
+  top: -10px;
+  padding: 20px;
+  z-index: 3;
+  animation: menu1 0.5s forwards;
+}
+@keyframes menu1{
+  from{
+opacity: 0;
+transform: translate3d(-40px,0,0);
+  }to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+.menu-mobile1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu-mobile1 a{
+  text-decoration: none;
+  color: #98eeee;
+  text-transform: capitalize;
+}
+.menu-mobile1 a:hover{
+  color:#f8c200 ;
+}
+@media (max-width: 1100px) {
+  .grey {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+.contato{
+  grid-template-columns: 1fr;
+  padding: 10px;
+}
+.contato form{
+  width: 500px;
+  padding: 0px;
+}
+.contato h3{
+  padding: 10px;
+  width: 20ch;
+}
+.outros::before {
+  left: -50px;
+}
+
+.mao{
+  display: none;
+}
+
+.outros{
+  grid-template-columns: 1fr;
+}
+.grid{
+  padding: 20px;
+  grid-template-columns:  1fr;
+}
+.titulo{
+  font-size: 2rem;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.conteiner-descricao{
+  
+  grid-row: 3;
+  grid-column: 1/3;
+  
+}
+.habilidades{
+  grid-column: 1/3;
+}
+
+.detail{
+  display: none;
+}
+
+.contato{
+  grid-column: 1/3;
+}
+.main{
+  gap: 20px;
+}
+.glitch{
+  width: 200px;
+}
+.nome h1{
+  font-size: 2rem;
+}
+.nome h2{
+  font-size: 1.3rem;
+}
+.color{
+  padding: 50px 0;
+}
+.sobre{
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.sobre p{
+font-size: 1rem;
+}
+.title{
+  padding: 20px;
+}
+.menu {
+  display: none;
+}
+.btn-open{
+  display: block;
+}
+.mobile{
+  display: block;
+  display: flex;
+  flex-direction: column;
+  
+}
+.nav{
+  padding: 10px;
+}
+}
+
+@media (max-width: 725px){
+  .outros::before{
+    display: none;
+  }
+  .contato form{
+    width: 380px;
+  }
+  .contato h3{
+    width: 15ch;
+  }
+  .glitch{
+    display: none;
+  }
+  .main{
+    grid-template-columns: 1fr;
+  }
+  .nome{
+    padding: 20px;
+    grid-column: 1/3;
+    justify-self: center;
+  }
+  .title{
+    padding: 20px;
+  }
+  
+  .acesse{
+    gap: 20px;
+  }
+.acesse h3{
+  font-size: 1.4rem;
+}
+
+  .acesse a{
+    align-self: center;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .projetos{
+    grid-template-columns: 1fr;
+  }
+  .container-slider{
+    padding-bottom: 30px;
+  }
+  .nome h2{
+    font-size: 1.2rem;
+  }
+  .nome h1{
+    font-size: 1.8rem;
+  }
+  
+}
+
+@media (max-width: 460px){
+  .contato form{
+    width: 250px;
+  }
+  .contato h3{
+    width: 12ch;
+  }
+}

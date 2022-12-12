@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="130px" height="130px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 130 130"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#98EEEE}
+    .fil2 {fill:#98EEEE;fill-rule:nonzero}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-990.25 -138.48l392.5 -132.43 0 473.32 -392.5 132.43 0 -473.32z"/>
+    </clipPath>
+     <clipPath id="id1">
+      <path d="M-990.25 -138.48l265.27 -89.5 127.23 0 0 430.39 -392.5 132.43 0 -473.32z"/>
+     </clipPath>
+     <clipPath id="id2">
+      <path d="M-990.25 -138.48l392.5 -132.43 0 473.32 -392.5 132.43 0 -473.32z"/>
+     </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2766440516144">
+   <polygon class="fil0" points="-990.25,-138.48 -597.75,-270.91 -597.75,202.41 -990.25,334.84 "/>
+   <g style="clip-path:url(#id0)">
+    <g>
+    </g>
+    <g style="clip-path:url(#id1)">
+     <image x="-1075.12" y="-227.98" width="579.66" height="579.66" xlink:href="detalhe_Images\detalhe_ImgID1.png"/>
+    </g>
+    <g style="clip-path:url(#id2)">
+    </g>
+   </g>
+   <polygon class="fil1" points="-990.25,-138.48 -597.75,-270.91 -597.75,202.41 -990.25,334.84 "/>
+   <path class="fil0" d="M-990.25 -289.05l0 132.43 392.5 -132.43 -392.5 0zm12.78 24.69l0 72.34 214.4 -72.34 -214.4 0z"/>
+   <path class="fil0" d="M-597.75 348.03l0 -132.43 -392.5 132.43 392.5 0zm-12.78 -24.69l0 -72.33 -214.39 72.33 214.39 0z"/>
+  </g>
+  <path class="fil2" d="M61.95 122.8c-29.23,0 -52.93,-23.7 -52.93,-52.94 0,-29.23 23.7,-52.93 52.93,-52.93 29.24,0 52.94,23.7 52.94,52.93 0,29.24 -23.7,52.94 -52.94,52.94zm42.88 -104.69l-5.14 5.14c-10.29,-8.34 -23.4,-13.35 -37.68,-13.36l0 -7.24c16.28,0.01 31.2,5.82 42.82,15.46zm23.86 43.74c-1.42,-11.95 -5.98,-22.95 -12.83,-32.13l-5.18 5.18c-2.77,-3.85 -5.99,-7.37 -9.57,-10.47l6.45 -6.45 -1.55 -1.28c-12.33,-10.23 -27.96,-15.87 -43.99,-15.89l-1.84 0 0 9.11c-32.3,0.94 -58.2,27.41 -58.2,59.94 0,0.03 0,0.06 0,0.08l6.1 0c0.03,16.81 7.75,31.81 19.83,41.67l-4.34 4.33c10.16,8.48 23.17,13.64 37.37,13.87l0 -6.09c0.34,0.01 0.68,0.02 1.01,0.02 29.73,0 53.83,-24.08 53.87,-53.8l6.1 0c0,-0.02 0.01,-0.05 0.01,-0.08 0,-2.72 -0.19,-5.39 -0.54,-8.01l7.3 0z"/>
+ </g>
+</svg>
