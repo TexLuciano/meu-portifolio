@@ -23,9 +23,7 @@ img {
   max-width: 100%;
   display: block;
 }
-.habilidades img {
-  width: 50px;
-}
+
 
 .nav {
   margin: 0 auto;
@@ -149,9 +147,7 @@ img {
 
 .icons {
   border: solid transparent 3px;
-  padding: 20px;
-  width: 80px;
-  height: 80px
+  
 }
 .icons:hover {
   border: solid #f8c200 3px;
@@ -159,8 +155,10 @@ img {
 }
 
 .habilidades li img {
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
+  border: #98eeee solid 3px;
+  border-radius: 4px;
 }
 
 .conteiner-descricao {
