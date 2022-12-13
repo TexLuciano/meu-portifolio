@@ -164,40 +164,40 @@
   background: #f8c200;
 }
 .habi-html{
-  background: url('/img/html.svg') no-repeat center; 
+  background: url('img/html.svg') no-repeat center; 
   background-size: 60%;
 }
 
 .habi-html:hover{
-  background: url('/img/html2.svg') no-repeat center;
+  background: url('img/html2.svg') no-repeat center;
   background-size: 70%;
   transition: 0.4s;
 }
 .habi-css{
-  background: url('/img/css.svg') no-repeat center; 
+  background: url('img/css.svg') no-repeat center; 
   background-size: 60%;
 }
 .habi-css:hover{
-  background: url('/img/css2.svg') no-repeat center;
+  background: url('img/css2.svg') no-repeat center;
   background-size: 70%;
   transition: 0.4s;
 }
 .habi-js{
-  background: url('/img/js.svg') no-repeat center; 
+  background: url('img/js.svg') no-repeat center; 
   background-size: 60%;
 }
 .habi-js:hover{
-  background: url('/img/js2.svg') no-repeat center;
+  background: url('img/js2.svg') no-repeat center;
   background-size: 70%;
   transition: 0.4s;
 }
 
 .habi-cdr{
-  background: url('/img/cdr.svg') no-repeat center; 
+  background: url('img/cdr.svg') no-repeat center; 
   background-size: 60%;
 }
 .habi-cdr:hover{
-  background: url('/img/cdr2.svg') no-repeat center;
+  background: url('img/cdr2.svg') no-repeat center;
   background-size: 70%;
   transition: 0.4s;
 }
